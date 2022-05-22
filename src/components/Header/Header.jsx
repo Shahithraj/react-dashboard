@@ -13,7 +13,7 @@ const Header = () => {
             alt=""
           />
         </div>
-        <h2>HOME PAGE</h2>
+        <h2 style={{color:"blueviolet"}}>HOME PAGE</h2>
       </div>
       <div className="header_right">
         <div>
