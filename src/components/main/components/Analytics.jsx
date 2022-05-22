@@ -18,11 +18,11 @@ const Analytics = () => {
      <div style={{marginBottom:"10px",color:"gray"}}>Analytics</div>
     </div>
     <div className='grap_time'>
-        <div onClick = {() =>handleRoute("")} className={` ${activeMenu == ""}`}>1w</div>
-        <div onClick = {() =>handleRoute("1m")} className={` ${activeMenu == "1m"}`}>1M</div>
-        <div onClick = {() =>handleRoute("6m")} className={` ${activeMenu == "6m"}`}>6M</div>
-        <div onClick = {() =>handleRoute("1y")} className={` ${activeMenu == "1y"}`}>1Y</div>
-        <div onClick = {() =>handleRoute("all")} className={` ${activeMenu == "all"}`}>All</div>
+        <div onClick = {() =>handleRoute("")} className={` ${activeMenu === ""}`}>1w</div>
+        <div onClick = {() =>handleRoute("1m")} className={` ${activeMenu === "1m"}`}>1M</div>
+        <div onClick = {() =>handleRoute("6m")} className={` ${activeMenu === "6m"}`}>6M</div>
+        <div onClick = {() =>handleRoute("1y")} className={` ${activeMenu === "1y"}`}>1Y</div>
+        <div onClick = {() =>handleRoute("all")} className={` ${activeMenu === "all"}`}>All</div>
     </div>
 
     </div>

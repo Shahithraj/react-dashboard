@@ -13,14 +13,14 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
     <div>
-   <AiFillHome onClick = {() =>handleRoute("")} className={`menu ${activeMenu == ""}`} />
-   <AiOutlineCompass onClick = {() =>handleRoute("second")} className={`menu ${activeMenu == "second"}`} />
-   <AiOutlineShoppingCart onClick = {() =>handleRoute("third")} className={`menu ${activeMenu == "third"}`} />
-   <AiFillProfile onClick = {() =>handleRoute("fourth")} className={`menu ${activeMenu == "fourth"}`} />
+   <AiFillHome onClick = {() =>handleRoute("")} className={`menu ${activeMenu === ""}`} />
+   <AiOutlineCompass onClick = {() =>handleRoute("second")} className={`menu ${activeMenu === "second"}`} />
+   <AiOutlineShoppingCart onClick = {() =>handleRoute("third")} className={`menu ${activeMenu === "third"}`} />
+   <AiFillProfile onClick = {() =>handleRoute("fourth")} className={`menu ${activeMenu === "fourth"}`} />
     </div>
 <div style={{marginBottom:"30px"}}>
-<AiFillSetting onClick = {() =>handleRoute("settings")} className={`menu ${activeMenu == "settings"}`} />
-<BsFillQuestionCircleFill onClick = {() =>handleRoute("help")} className={`menu ${activeMenu == "help"}`} />
+<AiFillSetting onClick = {() =>handleRoute("settings")} className={`menu ${activeMenu === "settings"}`} />
+<BsFillQuestionCircleFill onClick = {() =>handleRoute("help")} className={`menu ${activeMenu === "help"}`} />
 </div>
     </div>
   )

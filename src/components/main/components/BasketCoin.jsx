@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Round from "./Round";
 
 const BasketCoin = ({ data, setAllData, AllData, allData }) => {
-  const [coin, setCoin] = useState([1, 2, 3, 4, 5, 6, 7, 8]);
 
   return (
     <div className="basket_coin">
